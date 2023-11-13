@@ -17,7 +17,7 @@ void mouseReleased(){
     board.updateResultArea(game.getJankenResult("Gu")); 
    }else if (mouseX > 150 && mouseX <= 300 && mouseY >= 0 && mouseY <= 150){
     board.updateResultArea(game.getJankenResult("Choki")); 
-   }else if (mouseX >= 300 && mouseX <= 450 && mouseY >= 0 && mouseY <= 150){
+   }else if (mouseX > 300 && mouseX <= 450 && mouseY >= 0 && mouseY <= 150){
     board.updateResultArea(game.getJankenResult("Pa")); 
    }
 }
